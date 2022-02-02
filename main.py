@@ -35,10 +35,9 @@ else:
     print("You get attacked by an angry trout. Game Over.")
   else:
     choice3=input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?").lower()
-    if(choice3==red):
+    if(choice3=="red"):
       print("It's a room full of fire. Game Over.")
-    elif(choice3==blue):
+    elif(choice3=="blue"):
       print("You enter a room of beasts. Game Over.")
     else:
       print("You found the treasure! You Win!")
-      
