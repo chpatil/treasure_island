@@ -41,3 +41,4 @@ else:
       print("You enter a room of beasts. Game Over.")
     else:
       print("You found the treasure! You Win!")
+      
